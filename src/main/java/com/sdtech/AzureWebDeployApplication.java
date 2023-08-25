@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+
 @SpringBootApplication
 public class AzureWebDeployApplication {
 
 	@GetMapping("/message")
 	public String demoMessage()
 	{
-		return  "Hi! This the message from Azure Web App";
+		return  "Hi! This the message from Azure Web Application ";
 	}
 
 	public static void main(String[] args) {
