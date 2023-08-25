@@ -14,7 +14,7 @@ public class AzureWebDeployApplication {
 	@GetMapping("/message")
 	public String demoMessage()
 	{
-		return  "Hi! This the message from Azure Web Application ";
+		return  "Hi! This the message from Azure Web Application  ";
 	}
 
 	public static void main(String[] args) {
